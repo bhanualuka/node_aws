@@ -18,3 +18,5 @@ app.get("/hello", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is up and running ${PORT}`);
 });
+
+console.log("Everything is going right...");
