@@ -10,7 +10,7 @@ app.get("/get", (req, res) => {
   res.json({ message: "jai sai master jai bapuji maharaj" });
 });
 
-app.get("/hello", (req, res) => {
+app.get("/ram", (req, res) => {
   console.log("Hello route called");
   res.json({ message: "Jai Bapuji maharaj , modified Code" });
 });
